@@ -151,8 +151,19 @@ The notebooks are ordered by increasing complexity:
 ## Getting Started
 
 ```bash
-git clone https://github.com/<your-username>/deep-learning-labs.git
+git clone https://github.com/Matthis44/deep-learning-labs.git
 cd deep-learning-labs
-pip install torch torchvision tensorflow keras scikit-learn numpy matplotlib pretty_midi
+pip install -r requirements.txt
 jupyter notebook
 ```
+
+The notebooks are saved with their outputs, so they can be read on GitHub without running them.
+`rnn_keras_part_1.ipynb` is an alternative solution of the same IMDB lab as `rnn_keras_introduction.ipynb`.
+
+---
+
+## Context
+
+These notebooks are lab sessions from the Deep Learning course at Télécom Paris
+(lab statements by Geoffroy Peeters). The code that completes the exercises, the experiments
+and the analyses are mine.
